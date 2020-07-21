@@ -1,0 +1,10 @@
+version: "3"
+services: 
+   app-alpine:
+     build: 
+      context: ./
+      dockerfile: ./Dockerfile-alpine
+   app:
+     build: 
+       context: ./
+       dockerfile: ./Dockerfile
